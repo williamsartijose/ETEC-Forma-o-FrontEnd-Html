@@ -55,7 +55,8 @@ align-items: center;
 
 }
 .profile-avatar img{
- width: 150px;
+ width: 150px;  /* 150 px 150 rem  etchttps://www.w3schools.com/cssref/css_units.asp */ 
+
 
 }
 .profile-description{
