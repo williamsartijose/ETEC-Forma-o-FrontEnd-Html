@@ -55,7 +55,7 @@ align-items: center;
 
 }
 .profile-avatar img{
- width: 150px;  /* 150 px 150 rem  etchttps://www.w3schools.com/cssref/css_units.asp */ 
+ width: 150px; 
 
 
 }
@@ -64,4 +64,29 @@ margin: 0;
 }
 .profile-title{
     margin: 35px 0 0 0;
+}
+
+#portifolio {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.portifolio-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2c3e50;
+}
+.portifolio-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.portifolio-item{
+    width:  280px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+
 }
